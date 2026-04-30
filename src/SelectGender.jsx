@@ -11,7 +11,7 @@ import {
   AlertTriangle,
 } from 'lucide-react';
 
-const API_BASE_URL = 'https://talkvoid.rf.gd/api';
+const API_BASE_URL = 'https://talkvoid-backend-main-eaw2cx.free.laravel.cloud/api';
 
 function SelectGender({ onGenderSelected }) {
   const [selectedGender, setSelectedGender] = useState('male');
