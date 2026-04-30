@@ -11,7 +11,7 @@ import {
   AlertTriangle,
 } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://talkvoid.rf.gd/api';
 
 function SelectGender({ onGenderSelected }) {
   const [selectedGender, setSelectedGender] = useState('male');
